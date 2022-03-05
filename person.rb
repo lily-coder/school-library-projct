@@ -12,7 +12,7 @@ class Person
     @name = name
     @parent_permission = parent_permission
     @corrector = Corrector.new
-		@rentals = []
+    @rentals = []
   end
 
   private
@@ -30,8 +30,8 @@ class Person
   def validate_name
     @name = @corrector.correct_name(@name)
   end
-	def add_rental(book, date)
+
+  def add_rental(book, date)
     Rental.new(date, book, self)
   end
-
 end
