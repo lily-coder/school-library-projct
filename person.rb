@@ -2,9 +2,8 @@ require './corrector'
 require './rental'
 
 class Person
-  attr_accessor :age, :name
-
-  attr_reader :id, :rentals
+  attr_reader :rentals
+  attr_accessor :name, :age, :id
 
   def initialize(age:, name: 'Unknown', parent_permission: true)
     @id = Random.rand(1..1000)
