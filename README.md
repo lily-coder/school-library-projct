@@ -19,6 +19,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@lily-coder](https://github.com/lily-coder/)
 - LinkedIn: [Lilian Moraa](https://www.linkedin.com/in/lilian-moraa-99950b1b8/)
 
+👤 **Claude Mucyo**
+
+- GitHub: [@Mucyosoda](https://github.com/Mucyosoda)
+- Twitter: [@mucyoclaude](https://twitter.com/@ClaudeMucyo1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mucyoclaude)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

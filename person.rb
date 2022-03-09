@@ -2,11 +2,11 @@ require './corrector'
 require './rental'
 
 class Person
-  attr_accessor :age, :name, :rentals
+  attr_accessor :age, :name
 
-  attr_reader :id
+  attr_reader :id, :rentals
 
-  def initialize(age, name = 'unknown', parent_permission = true)
+  def initialize(age:, name: 'Unknown', parent_permission: true)
     @id = Random.rand(1..1000)
     @age = age
     @name = name
@@ -31,7 +31,7 @@ class Person
     @name = @corrector.correct_name(@name)
   end
 
-  def add_rental(book, date)
-    Rental.new(date, book, self)
+  def add_rental(rental)
+    @rentals << rental
   end
 end
