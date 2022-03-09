@@ -24,9 +24,9 @@ class Storage
     file = 'books.json'
 
     if File.exist? file
-        JSON.parse(File.read(file)).map do |book|
-          Book.new(title: book['title'], author: book['author'])
-        end
+      JSON.parse(File.read(file)).map do |book|
+        Book.new(title: book['title'], author: book['author'])
+      end
     else
       []
     end
