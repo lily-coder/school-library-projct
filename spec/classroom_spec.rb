@@ -26,9 +26,8 @@ describe Classroom do
     @classroom.add_student(@student3)
     expect(@classroom.students.size).to be 4
   end
-  
+
   it 'checks the classroom instance' do
     expect(@classroom).to be_instance_of Classroom
   end
-
 end
